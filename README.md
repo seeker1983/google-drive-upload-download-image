@@ -32,7 +32,7 @@ On success, index.php will upload image.jpg into file '/images/nature/mountains/
 and download it back as local river-new.jpg
 
 
-<h3> Usage </h3>
+<h4> Usage </h4>
 
 Upload file:
 
