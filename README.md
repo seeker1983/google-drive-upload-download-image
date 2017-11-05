@@ -26,7 +26,18 @@ This token will be used to access your google drive for all subsequent runs.
 Token doesn't expire, unless not used for 6 months.
 Make sure script have write access to credentials folder.
 
-<h4> Usage </h4>
+<h4> Example </h4>
 
 On success, index.php will upload image.jpg into file '/images/nature/mountains/river.jpg' on your google drive,
 and download it back as local river-new.jpg
+
+
+<h4> Usage </h4>
+
+Upload:
+    $link = upload_file_gd('/images/nature/mountains', 'image.jpg', 'river.jpg');
+
+Download:
+    download_file_gd('/images/nature/mountains/river.jpg', 'local-river.jpg');
+
+
