@@ -32,12 +32,12 @@ On success, index.php will upload image.jpg into file '/images/nature/mountains/
 and download it back as local river-new.jpg
 
 
-<h4> Usage </h4>
+<h3> Usage </h3>
 
-Upload:<br>
+<h4> Upload </h4>
     $link = upload_file_gd('/images/nature/mountains', 'image.jpg', 'river.jpg');
 
-Download:<br>
+<h4> Download </h4>
     download_file_gd('/images/nature/mountains/river.jpg', 'local-river.jpg');
 
 
