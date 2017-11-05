@@ -34,10 +34,10 @@ and download it back as local river-new.jpg
 
 <h4> Usage </h4>
 
-Upload:
+Upload:<br>
     $link = upload_file_gd('/images/nature/mountains', 'image.jpg', 'river.jpg');
 
-Download:
+Download:<br>
     download_file_gd('/images/nature/mountains/river.jpg', 'local-river.jpg');
 
 
