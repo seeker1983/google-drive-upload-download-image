@@ -42,4 +42,10 @@ Download file:
 
 	download_file_gd('/images/nature/mountains/river.jpg', 'local-river.jpg');
 
+<h3> Known issues </h3>
+<h4> Windows </h4>
+Some of users report there might be problems with curl certificate on windows XAMPP server.
+I don't have windows to check that and provide patch/insructions, but they told me that this articles helped them solve the problem.
 
+https://superuser.com/questions/442793/why-cant-curl-properly-verify-a-certificate-on-windows
+https://stackoverflow.com/questions/21114371/php-curl-error-code-60
